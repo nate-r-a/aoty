@@ -15,7 +15,6 @@ const SelectedAlbumDetails = ({album}) => {
       <div className="col-md-5 spotify">
         <iframe src={"https://open.spotify.com/embed?uri=" + album.uri} width="252" height="460" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
-      {/* <img src={album.cover_url} className="selected-album-cover"/> */}
     </div>
   )
 }
