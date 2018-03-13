@@ -68,7 +68,9 @@ body {
 }
 
 .selected-album-details {
-  // width: 500px;
+  // transition: opacity .4s;
+  // opacity: 0;
+  // opacity: 1;
 }
 
 .text-details {
@@ -121,11 +123,13 @@ iframe {
   padding-right: 0;
   width: 267px;
   height: 460px;
-  background-color: #181818;
+  background: linear-gradient(to bottom, #282828, #282828 80px, #181818 380px);
+  // Another option:
+  // background: linear-gradient(to bottom, #282828, #282828 80px, #181818 80px);
   background-clip: content-box;
 }
 
-// #################################### Tesint transition stuff
+// #################################### Tes transition stuff
 .cross-fade-leave {
   opacity: 1;
 }
@@ -156,5 +160,5 @@ iframe {
 .fade-wait-enter.fade-wait-enter-active {
   opacity: 1;
   /* Delay the enter animation until the leave completes */
-  transition: opacity .5s ease-in-out .5s;
+  transition: opacity .5s ease-in-out .4s;
 }
