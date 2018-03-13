@@ -1,3 +1,126 @@
-h1 {
-  color: tomato;
+body {
+  background-color: #ddd;
+}
+
+.shadow {
+  box-shadow: 4px 4px #111;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.order {
+  font-style: italic;
+  font-size: 18px;
+  color: #ccc;
+  cursor: default;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  // Defines each row's height
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 10px;
+  color: #444;
+  padding: inherit;
+  justify-content: center;
+}
+
+.box {
+  background-color: #444;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 150%;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #777;
+}
+
+.box:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px #111;
+  // box-shadow: none;
+  transition: all .3s ease;
+}
+
+.box:not(:active) {
+  transition: all .3s ease;
+}
+
+.album-cover {
+  width: 100%;
+}
+
+.select-an-album {
+  color: #999;
+  text-align: center;
+  vertical-align: middle;
+  height: 460px;
+  line-height: 460px;
+}
+
+.selected-album-details {
+  // width: 500px;
+}
+
+.text-details {
+  padding-right: 0;
+}
+
+hr {
+  margin-top: 4px;
+  margin-bottom: -3px;
+  border: 0;
+  border-top: 1px groove #eee;
+  width: 70%;
+}
+
+.title, .artist {
+  text-align: center;
+  font-size: 37px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Vesper Libre', serif;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.2;
+  text-shadow: 5px 5px #111;
+}
+
+.artist {
+  padding-top: 5px;
+}
+
+.title {
+  font-style: italic;
+}
+
+.selected-album {
+  padding: 5px;
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  height: 470px;
+  background-color: #444;
+  border-radius: 5px;
+}
+
+
+iframe {
+  border: none;
+}
+
+.spotify {
+  text-align: right;
+  padding-right: 0;
+  width: 267px;
+  height: 460px;
+  background-color: #181818;
+  background-clip: content-box;
 }
