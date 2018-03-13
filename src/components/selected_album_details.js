@@ -10,7 +10,7 @@ const SelectedAlbumDetails = ({album}) => {
     <div className="selected-album-details">
       <div className="col-md-7 text-details">
         <ReactCSSTransitionReplace transitionName="fade-wait"
-                                     transitionLeaveTimeout={600} transitionenterTimeout={600}>
+                                     transitionLeaveTimeout={400} transitionenterTimeout={400}>
           <TextDetails key={album.title} album={album} />
         </ReactCSSTransitionReplace>
       </div>
@@ -24,6 +24,8 @@ const SelectedAlbumDetails = ({album}) => {
     </div>
   )
 }
+
+/// ############ Consider making AlbumDetails a separate compenent that contained TextDetails and Spotify, so they can animate together without having to have two different things up there
 
 // Testing out splitting this into separate components
 const TextDetails = ({album}) => {

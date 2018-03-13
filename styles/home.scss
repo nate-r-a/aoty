@@ -139,7 +139,7 @@ iframe {
 }
 .cross-fade-enter.cross-fade-enter-active {
   opacity: 1;
-  transition: opacity 1s 1s ease-in-out;
+  transition: opacity .1s ease-in-out;
 }
 
 .fade-wait-leave {
@@ -147,7 +147,7 @@ iframe {
 }
 .fade-wait-leave.fade-wait-leave-active {
   opacity: 0;
-  transition: opacity .6s ease-in-out;
+  transition: opacity .5s ease-in-out;
 }
 
 .fade-wait-enter {
@@ -156,5 +156,5 @@ iframe {
 .fade-wait-enter.fade-wait-enter-active {
   opacity: 1;
   /* Delay the enter animation until the leave completes */
-  transition: opacity .5s ease-in-out .6s;
+  transition: opacity .5s ease-in-out .5s;
 }
