@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import ReactCSSTransitionReplace from 'react-css-transition-replace';
 
-const SelectedAlbumDetailsPanel = ({album}) => {
+const SelectedAlbumDetails = ({album}) => {
   if (!album) {
     return (
         <div className="select-an-album">Please select an album from the grid</div>
     )
   }
 
+  // ReactCSSTransitionReplace apparently doesn't work when I try to refactor TextDetails and Spotify into one component, no idea why
   return (
     <div className="selected-album-details">
       <div className="col-md-7 text-details">
@@ -24,9 +25,6 @@ const SelectedAlbumDetailsPanel = ({album}) => {
   )
 }
 
-/// ############ Consider making AlbumDetails a separate compenent that contained TextDetails and Spotify, so they can animate together without having to have two different things up there
-
-// Testing out splitting this into separate components
 const TextDetails = ({album}) => {
   return (
     <div>
@@ -43,20 +41,4 @@ const Spotify = ({album}) => {
   )
 }
 
-const SelectedAlbumDetails = ({album}) => {
-  return (
-    <div className="selected-album-details">
-      <div className="col-md-7 text-details">
-        <div className="artist">{album.artist}</div>
-        <hr />
-        <div className="title">{album.title}</div>
-      </div>
-      <div className="col-md-5 spotify">
-        <iframe src={"https://open.spotify.com/embed?uri=" + album.uri} width="253" height="460" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      </div>
-    </div>
-  )
-}
-
-
-export default SelectedAlbumDetailsPanel;
+export default SelectedAlbumDetails;

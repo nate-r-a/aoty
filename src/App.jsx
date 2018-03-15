@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import AlbumList from './album_list.json';
 import AlbumGrid from './components/album_grid';
-import SelectedAlbumDetailsPanel from './components/selected_album_details_panel';
+import SelectedAlbumDetails from './components/selected_album_details';
 
 class App extends Component {
   constructor (props) {
@@ -31,7 +31,7 @@ class App extends Component {
               <div className="selected-album shadow">
                 <div className="container-fluid">
                   <div className="row">
-                    <SelectedAlbumDetailsPanel album={this.state.selectedAlbum} />
+                    <SelectedAlbumDetails album={this.state.selectedAlbum} />
                   </div>
                 </div>
               </div>
