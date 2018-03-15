@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import AlbumList from './album_list.json';
 import AlbumGrid from './components/album_grid';
-import SelectedAlbumDetails from './components/selected_album_details';
+import SelectedAlbumDetailsPanel from './components/selected_album_details_panel';
 
 class App extends Component {
   constructor (props) {
@@ -9,8 +9,8 @@ class App extends Component {
 
     this.state = {
       // Looks like React knows how to treat the JSON file
-      albums: AlbumList,
-      selectedAlbum: null
+      albums: AlbumList.slice(1, 10),
+      selectedAlbum: AlbumList[0]
     }
     console.log(AlbumList);
     console.log(this.state.selectedAlbum);
@@ -31,7 +31,7 @@ class App extends Component {
               <div className="selected-album shadow">
                 <div className="container-fluid">
                   <div className="row">
-                    <SelectedAlbumDetails album={this.state.selectedAlbum} />
+                    <SelectedAlbumDetailsPanel album={this.state.selectedAlbum} />
                   </div>
                 </div>
               </div>
