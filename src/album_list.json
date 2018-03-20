@@ -1,89 +1,194 @@
-[
-  {
-    "artist": "Best Albums of 2017",
-    "thoughts": "",
-    "uri": "spotify:user:spotify:playlist:37i9dQZF1E9FEhzWZE0fdF"
-  },
-  {
-    "title": "Fin",
-    "artist": "Syd",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/c8/SydFinAlbum.jpg",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:59Bbr32pMTFHlUb8Nv1Kr0",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "Saturation II",
-    "artist": "Brockhampton",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/d/d1/Brockhampton_-_Saturation_II.png",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:0XnqQzdSFAml08XZoRt1St",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "Saturation III",
-    "artist": "Brockhampton",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/93/Brockhampton_-_Saturation_III.png",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:5c2AzoNyr46fCQM5d8mxE0",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "dont smile at me",
-    "artist": "Billie Eilish",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:7fRrTyKvE4Skh93v97gtcU",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "blkswn",
-    "artist": "Smino",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/61/Blkswn.JPG",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:3bTjPEgPzm1XwXsNlMVHhs",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "DAMN.",
-    "artist": "Kendrick Lamar",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "Ctrl",
-    "artist": "SZA",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/SZA_-_Ctrl_cover.png",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:76290XdXVF9rPzGdNRWdCh",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "Fresh Air",
-    "artist": "Homeshake",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/2/23/Homeshake_-_Fresh_Air.jpg",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:6hXa2OPdIt6xwGpaRpvDFz",
-    "release_date": "",
-    "rating": ""
-  },
-  {
-    "title": "Good Look for You",
-    "artist": "Gavin Turek",
-    "cover_url": "https://i.imgur.com/zroHfLC.jpg",
-    "thoughts": "Pretty good",
-    "uri": "spotify:album:4Z2dtYOWlxHj9u9JRcAVD2",
-    "release_date": "",
-    "rating": ""
-  }
-
-]
+{
+  "start":
+    {
+      "artist": "Best Albums of 2017",
+      "thoughts": "",
+      "uri": "spotify:user:spotify:playlist:37i9dQZF1E9FEhzWZE0fdF"
+    },
+  "main-albums":
+    [
+      {
+        "title": "Fin",
+        "artist": "Syd",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/c8/SydFinAlbum.jpg",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:59Bbr32pMTFHlUb8Nv1Kr0",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Saturation II",
+        "artist": "Brockhampton",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/d/d1/Brockhampton_-_Saturation_II.png",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:0XnqQzdSFAml08XZoRt1St",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Saturation III",
+        "artist": "Brockhampton",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/93/Brockhampton_-_Saturation_III.png",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:5c2AzoNyr46fCQM5d8mxE0",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "dont smile at me",
+        "artist": "Billie Eilish",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:7fRrTyKvE4Skh93v97gtcU",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "blkswn",
+        "artist": "Smino",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/61/Blkswn.JPG",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:3bTjPEgPzm1XwXsNlMVHhs",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "DAMN.",
+        "artist": "Kendrick Lamar",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:4eLPsYPBmXABThSJ821sqY",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Ctrl",
+        "artist": "SZA",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/SZA_-_Ctrl_cover.png",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:76290XdXVF9rPzGdNRWdCh",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Fresh Air",
+        "artist": "Homeshake",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/2/23/Homeshake_-_Fresh_Air.jpg",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:6hXa2OPdIt6xwGpaRpvDFz",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Good Look for You",
+        "artist": "Gavin Turek",
+        "cover_url": "https://i.imgur.com/zroHfLC.jpg",
+        "thoughts": "Pretty good",
+        "uri": "spotify:album:4Z2dtYOWlxHj9u9JRcAVD2",
+        "release_date": "",
+        "rating": ""
+      }
+    ],
+  "honorable-mentions":
+    [
+      {
+        "title": "Super Slimey",
+        "artist": "Future & Young Thug",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Super_Slimey_cover.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Wash & Set",
+        "artist": "Leikeli47",
+        "cover_url": "https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/3b/11/02/3b110267-2de7-282c-6a11-d0dd57839cbe/886446652993.jpg/268x0w.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Saturation",
+        "artist": "Brockhampton",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b0/Brockhampton_-_Saturation.png",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "All-Amerikkkan Badass",
+        "artist": "Joey Badass",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/e6/AllAmerikkkanBadass.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Run the Jewels 3",
+        "artist": "Run the Jewels",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/96/RunTheJewels3.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Back From the Future",
+        "artist": "Kodie Shane",
+        "cover_url": "https://t2.genius.com/unsafe/300x0/https%3A%2F%2Fimages.genius.com%2Ff66426d6b9fe6beb6d8e8ee130996e5c.355x355x1.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Always Never Home",
+        "artist": "Syd",
+        "cover_url": "https://i.imgur.com/9oJ1NpL.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "ISON",
+        "artist": "Sevdaliza",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/65/Sevdaliza_-_ISON.png",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "I can feel you creep into my private life",
+        "artist": "Tune-Yards",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/ee/I_Can_Feel_You_Creep_Into_My_Private_Life_cover.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Laila's Wisdom",
+        "artist": "Rapsody",
+        "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7b/RapsodyLailasWisdom.png",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      },
+      {
+        "title": "Morning After",
+        "artist": "Rayana Jay",
+        "cover_url": "https://i1.sndcdn.com/artworks-000242775879-kyzon7-t500x500.jpg",
+        "thoughts": "",
+        "uri": "",
+        "release_date": "",
+        "rating": ""
+      }
+    ]
+}

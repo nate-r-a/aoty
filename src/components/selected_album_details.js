@@ -9,6 +9,7 @@ const SelectedAlbumDetails = ({album}) => {
   }
 
   // ReactCSSTransitionReplace apparently doesn't work when I try to refactor TextDetails and Spotify into one component, no idea why
+  // Check the height CSS attribute with this -- multi-line album names don't play well just yet
   return (
     <div className="selected-album-details">
       <div className="col-md-7 text-details">

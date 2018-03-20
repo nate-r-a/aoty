@@ -1,10 +1,10 @@
 import React from 'react';
-import AlbumCover from './album_cover';
+import HonorableMentionAlbumCover from './honorable_mention_album_cover';
 
-const AlbumGrid = (props) => {
+const HonorableMentionAlbumGrid = (props) => {
   const albumItems = props.albums.map((album) => {
     return (
-      <AlbumCover
+      <HonorableMentionAlbumCover
         album={album}
         onAlbumSelect={props.onAlbumSelect}
         key={album.title} />
@@ -12,10 +12,10 @@ const AlbumGrid = (props) => {
   })
 
   return (
-    <ul className="wrapper">
+    <ul className="hm-wrapper">
       {albumItems}
     </ul>
   );
 };
 
-export default AlbumGrid;
+export default HonorableMentionAlbumGrid;
